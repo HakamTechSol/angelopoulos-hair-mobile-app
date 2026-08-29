@@ -1,0 +1,29 @@
+workflows:
+  ios-release:
+    name: iOS Release
+
+    environment:
+      flutter: stable
+      xcode: latest
+      cocoapods: default
+
+    scripts:
+      - name: Clean
+        script: flutter clean
+
+      - name: Get packages
+        script: flutter pub get
+
+      - name: Build iOS (generate xcconfig)
+        script: flutter build ios --release --no-codesign
+
+      - name: Install pods
+        script: |
+          cd ios
+          pod install
+
+      - name: Build IPA
+        script: flutter build ipa --release
+
+    artifacts:
+      - build/ios/ipa/*.ipa

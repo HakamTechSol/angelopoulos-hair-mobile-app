@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "661244516021",
+    "project_id": "angelopoulos--hair",
+    "storage_bucket": "angelopoulos--hair.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661244516021:android:2a87d837946b425f9950fc",
+        "android_client_info": {
+          "package_name": "com.angelopouloshair.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD8QqAK_K5tzm-4awmBOvtEj_lHWlCplc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

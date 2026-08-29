@@ -1,0 +1,119 @@
+name: loyalty_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.11+11
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  flutter_localizations:
+    sdk: flutter
+  smooth_page_indicator: ^1.2.1
+  flutter_launcher_icons: ^0.14.4
+  charset_converter: ^2.3.0
+  intl_phone_field: ^3.2.0
+  change_app_package_name: ^1.5.0
+  fluttertoast: ^9.0.0
+  dropdown_textfield: ^1.2.0
+  feedback: ^3.2.0
+  carousel_slider: ^5.1.1
+  get: ^4.7.2
+  lottie: ^3.3.2
+  keyboard_avoider: ^0.2.0
+  font_awesome_flutter: ^10.12.0
+  http: ^1.5.0
+  shared_preferences: ^2.5.3
+  google_fonts: ^6.3.2
+  flutter_local_notifications: ^19.5.0
+  universal_html: ^2.2.4
+  mobile_scanner: ^7.1.3
+  provider: ^6.1.5+1
+  cupertino_icons: ^1.0.8
+  permission_handler: ^12.0.1
+  cached_network_image: ^3.4.1
+  image_picker: ^1.2.0
+  url_launcher: ^6.3.2
+  firebase_core: 4.2.0
+  firebase_auth: 6.1.1
+  firebase_storage: 13.0.3
+  cloud_firestore: 6.0.3
+  firebase_messaging: 16.0.3
+  firebase_database: 12.0.3
+  googleapis_auth: ^2.0.0
+  flutter_html: ^3.0.0
+  webview_flutter: ^4.13.0
+  package_info_plus: ^9.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  # flutter_launcher_name: ^0.0.2
+
+# ✅ App Icon Config
+flutter_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/icons/app_logo.png" # <-- apna logo ka path
+
+# ✅ App Name Config
+flutter_launcher_name:
+  name: "Angelopoulos Hair"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/animation/
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/
+    - assets/service_account.json
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+    - family: Jura
+      fonts:
+        - asset: assets/fonts/Jura-Regular.ttf
+          weight: 700
+        - asset: assets/fonts/Jura-Medium.ttf
+          weight: 500
+    - family: NotoSans
+      fonts:
+        - asset: assets/fonts/NotoSans-Regular.ttf
+          weight: 700
+    - family: PinyonScript
+      fonts:
+        - asset: assets/fonts/PinyonScript-Regular.ttf  # Updated path to include assets/
+          style: normal
+    - family: Parisienne
+      fonts:
+        - asset: assets/fonts/Parisienne-Regular.ttf  # Updated path to include assets/
+          style: normal  
+    - family: Parisienne
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf  # Updated path to include assets/
+          style: normal  
+          
+  # ✅ Enable localization generation
+  generate: true
+
+# ✅ Root level localization config
+flutter_gen:
+  l10n:
+    enabled: true
+    arb-dir: lib/l10n
+    template-arb-file: app_en.arb
+    output-localization-file: app_localizations.dart
+    output-class: AppLocalizations

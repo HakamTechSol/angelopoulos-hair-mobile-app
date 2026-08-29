@@ -1,0 +1,6 @@
+{
+  "@@locale": "en",
+  "helloWorld": "Hello World",
+  "login": "Login",
+  "signup": "Sign Up"
+}

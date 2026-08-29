@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>661244516021-5g08g85kgg6onagf9dm5cnolhd0jqmlp.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.661244516021-5g08g85kgg6onagf9dm5cnolhd0jqmlp</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>661244516021-54a9a890lblimt9fu5cjmgg2l6gm5ruh.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBcJNHcg6vJpFYQII6HMm6-ae1qad8_jt8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>661244516021</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.angelopouloshair.flutterapp</string>
+	<key>PROJECT_ID</key>
+	<string>angelopoulos--hair</string>
+	<key>STORAGE_BUCKET</key>
+	<string>angelopoulos--hair.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:661244516021:ios:cac9c9cc5a54a9049950fc</string>
+</dict>
+</plist>

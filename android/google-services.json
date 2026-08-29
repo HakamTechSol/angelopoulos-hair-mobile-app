@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "117453057789",
+    "project_id": "lloyalty-application",
+    "storage_bucket": "lloyalty-application.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117453057789:android:074aa20f750ab5b9a71894",
+        "android_client_info": {
+          "package_name": "com.example.loyalty_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYMzYkBPm5-Xy153PNWe-JrWqjr93z7b8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
